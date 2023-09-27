@@ -22,7 +22,7 @@ public class API_ {
         InetAddress allByName = InetAddress.getByName("CJR-SNS");
         System.out.println(allByName);
 
-        //        根据域名获取inetAddress对象
+        //    根据域名获取inetAddress对象
 //        获取www.baidu.com
         InetAddress byName = InetAddress.getByName("www.baidu.com");
         System.out.println(byName);
