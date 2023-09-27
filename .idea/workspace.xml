@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d9f7dca8-24a7-4867-85a7-bb420e9d9207" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hspedu/socket/SocketTCP01Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hspedu/socket/SocketTCP01Server.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hspedu/api/API_.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hspedu/api/API_.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +37,11 @@
                 <list>
                   <RecentBranch>
                     <option name="branchName" value="learn1.1" />
-                    <option name="lastUsedInstant" value="1695799641" />
+                    <option name="lastUsedInstant" value="1695807265" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="learn1.2" />
+                    <option name="lastUsedInstant" value="1695807251" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="master" />
@@ -63,20 +64,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "onboarding.tips.debug.path": "C:/Users/chai0/IdeaProjects/chapter21/src/main/java/org/example/Main.java",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/chai0/IdeaProjects/chapter21/src/main/java/org/example/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="JUnit.SocketTCP01Client.test">
     <configuration name="API_.testInetAddress" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="chapter21" />
@@ -128,9 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SocketTCP01Server.test" />
+        <item itemvalue="JUnit.SocketTCP01Client.test" />
+        <item itemvalue="JUnit.API_.testInetAddress" />
         <item itemvalue="JUnit.SocketTCP01Client.test" />
         <item itemvalue="JUnit.SocketTCP01Server.test" />
-        <item itemvalue="JUnit.API_.testInetAddress" />
       </list>
     </recent_temporary>
   </component>
@@ -171,7 +175,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="learn1.2" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
