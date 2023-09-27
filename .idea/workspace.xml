@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d9f7dca8-24a7-4867-85a7-bb420e9d9207" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hspedu/socket/SocketTCP01Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hspedu/socket/SocketTCP01Server.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hspedu/api/API_.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hspedu/api/API_.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +37,11 @@
                 <list>
                   <RecentBranch>
                     <option name="branchName" value="learn1.1" />
-                    <option name="lastUsedInstant" value="1695799641" />
+                    <option name="lastUsedInstant" value="1695807265" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="learn1.2" />
+                    <option name="lastUsedInstant" value="1695807251" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="master" />
@@ -74,6 +75,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "onboarding.tips.debug.path": "C:/Users/chai0/IdeaProjects/chapter21/src/main/java/org/example/Main.java",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -131,6 +133,8 @@
         <item itemvalue="JUnit.SocketTCP01Client.test" />
         <item itemvalue="JUnit.SocketTCP01Server.test" />
         <item itemvalue="JUnit.API_.testInetAddress" />
+        <item itemvalue="JUnit.SocketTCP01Client.test" />
+        <item itemvalue="JUnit.SocketTCP01Server.test" />
       </list>
     </recent_temporary>
   </component>
@@ -171,7 +175,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="learn1.2" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
