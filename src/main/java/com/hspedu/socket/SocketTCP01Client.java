@@ -3,6 +3,7 @@ package com.hspedu.socket;
 import org.junit.Test;
 
 import java.io.IOException;
+import java.io.InputStream;
 import java.io.OutputStream;
 import java.net.InetAddress;
 import java.net.Socket;
@@ -24,8 +25,18 @@ public class SocketTCP01Client {
 //        得到和这个Socket对象关联的输出流对象
         OutputStream outputStream = socket.getOutputStream();
         outputStream.write("hello.server".getBytes());
+//        设置写入结束标记
+        socket.shutdownOutput();
+//        读取流
+        InputStream inputStream = socket.getInputStream();
+        byte[] bytes = new byte[1024];
+        int lineno = 0;
+        while ((lineno = inputStream.read(bytes)) != -1) {
+            System.out.println("这是客户端接收到的：" + new String(bytes, 0, lineno));
+        }
 //        关闭流对象和Socket
         outputStream.close();
+        inputStream.close();
         socket.close();
         System.out.println("客户端已退出~");
     }

@@ -4,6 +4,7 @@ import org.junit.Test;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.io.OutputStream;
 import java.net.InetAddress;
 import java.net.ServerSocket;
 import java.net.Socket;
@@ -35,8 +36,15 @@ public class SocketTCP01Server {
 //            根据读取到的实际长度显示内容  将字节数据转成字符串
             System.out.println(new String(bytes, 0, line));
         }
+//        通过输出流输出
+        OutputStream outputStream = accept.getOutputStream();
+        outputStream.write("hello,server".getBytes());
+        //        设置写入结束标记
+        accept.shutdownOutput();
+
 //        关闭流和Socket
         inputStream.close();
+        outputStream.close();
         accept.close();
         serverSocket.close();
     }
