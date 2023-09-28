@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d9f7dca8-24a7-4867-85a7-bb420e9d9207" name="更改" comment="11">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hspedu/socket/SocketTCP03Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hspedu/socket/SocketTCP03Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/_2023_9_27_22_31____.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/_2023_9_27_22_31____.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hspedu/socket/SocketTCP01Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hspedu/socket/SocketTCP01Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hspedu/socket/SocketTCP01Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hspedu/socket/SocketTCP01Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hspedu/socket/SocketTCP03Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hspedu/socket/SocketTCP03Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hspedu/socket/SocketTCP03Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hspedu/socket/SocketTCP03Server.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,25 +163,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="chapter21" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="chapter21" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.SocketTCP03Client.testSocketTCP03Client" />
         <item itemvalue="JUnit.SocketTCP03Server.testSocketTCP03Server" />
-        <item itemvalue="JUnit.SocketTCP01Client.test" />
         <item itemvalue="JUnit.SocketTCP01Server.test" />
+        <item itemvalue="JUnit.SocketTCP01Client.test" />
         <item itemvalue="JUnit.API_.testInetAddress" />
       </list>
     </recent_temporary>
