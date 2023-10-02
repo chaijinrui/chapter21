@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9f7dca8-24a7-4867-85a7-bb420e9d9207" name="更改" comment="SocketTCP03Server&#10;遇到一点问题，这俩类一直在等待中">
+    <list default="true" id="d9f7dca8-24a7-4867-85a7-bb420e9d9207" name="更改" comment="11">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/_2023_9_27_22_31____.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/_2023_9_27_22_31____.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hspedu/socket/SocketTCP03Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hspedu/socket/SocketTCP03Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hspedu/socket/SocketTCP03Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hspedu/socket/SocketTCP03Server.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,25 +163,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="chapter21" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="chapter21" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.SocketTCP03Client.testSocketTCP03Client" />
         <item itemvalue="JUnit.SocketTCP03Server.testSocketTCP03Server" />
-        <item itemvalue="JUnit.SocketTCP01Client.test" />
         <item itemvalue="JUnit.SocketTCP01Server.test" />
+        <item itemvalue="JUnit.SocketTCP01Client.test" />
         <item itemvalue="JUnit.API_.testInetAddress" />
       </list>
     </recent_temporary>
@@ -217,15 +207,7 @@
       <option name="project" value="LOCAL" />
       <updated>1695824929487</updated>
     </task>
-    <task id="LOCAL-00004" summary="SocketTCP03Server&#10;遇到一点问题，这俩类一直在等待中">
-      <option name="closed" value="true" />
-      <created>1695829777059</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1695829777059</updated>
-    </task>
-    <option name="localTasksCounter" value="5" />
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -256,8 +238,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="11" />
-    <MESSAGE value="SocketTCP03Server&#10;遇到一点问题，这俩类一直在等待中" />
-    <option name="LAST_COMMIT_MESSAGE" value="SocketTCP03Server&#10;遇到一点问题，这俩类一直在等待中" />
+    <option name="LAST_COMMIT_MESSAGE" value="11" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

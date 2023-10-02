@@ -16,9 +16,10 @@ import java.net.Socket;
 public class SocketTCP03Server {
     @Test
     public void testSocketTCP03Server() throws IOException {
-        ServerSocket serverSocket = new ServerSocket(9998);
+        ServerSocket serverSocket = new ServerSocket(9999);
         System.out.println("链接成功~");
         Socket accept = serverSocket.accept();
+        System.out.println("客户端已连接，IP地址：" + accept.getInetAddress().getHostAddress());
 
 
 //        InputStreamReader inputStreamReader = new InputStreamReader(accept.getInputStream());
@@ -26,13 +27,14 @@ public class SocketTCP03Server {
         InputStream inputStream = accept.getInputStream();
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream));
         String s=bufferedReader.readLine();
-        System.out.println(s);
+        System.out.println("收到的消息："+s);
 
         OutputStream outputStream = accept.getOutputStream();
         BufferedWriter bufferedWriter = new BufferedWriter(new OutputStreamWriter(outputStream));
         bufferedWriter.write("helloc,clint");
-        bufferedWriter.newLine();
         bufferedWriter.flush();
+        accept.shutdownOutput();
+
 //关闭流
 
         bufferedWriter.close();
