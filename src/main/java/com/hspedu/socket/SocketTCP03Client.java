@@ -23,7 +23,7 @@ public class SocketTCP03Client {
 //        客户端发送数据给服务端
 //        得到和这个Socket对象关联的输出流对象
 //        socker独有的getoutputStream
-//        字节流转字符流转缓冲流
+//        字节流转字符流转缓冲流  更高效
         BufferedWriter bufferedWriter = new BufferedWriter(new OutputStreamWriter(socket.getOutputStream()));
         bufferedWriter.write("hello, 字符流服务端~");
 
