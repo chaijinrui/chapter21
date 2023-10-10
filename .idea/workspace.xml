@@ -4,10 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9f7dca8-24a7-4867-85a7-bb420e9d9207" name="更改" comment="">
+    <list default="true" id="d9f7dca8-24a7-4867-85a7-bb420e9d9207" name="更改" comment="11">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hspedu/upload/StreamUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hspedu/upload/TPCFileUploadServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hspedu/upload/TPCFileUploadclient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/qier2.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/_2023_9_27_22_31____.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/在进行签出之前于_2023_9_27_22_31_取消提交了更改_[更改]/shelved.patch" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hspedu/socket/SocketTCP03Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hspedu/socket/SocketTCP03Client.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +35,6 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitToolBoxStore">
-    <option name="projectConfigVersion" value="5" />
     <option name="recentBranches">
       <RecentBranches>
         <option name="branchesForRepo">
@@ -69,11 +73,12 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/chai0/IdeaProjects/TestWebdriver",
+    "last_opened_file_path": "C:/Users/chai0/Desktop/chapter21/src/main/java/com/hspedu/upload",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -83,35 +88,34 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.SocketTCP03Client.testSocketTCP03Client">
-    <configuration name="API_.testInetAddress" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\chai0\Desktop\chapter21\src\main\java\com\hspedu\upload" />
+    </key>
+  </component>
+  <component name="RunManager" selected="应用程序.TPCFileUploadclient">
+    <configuration name="TPCFileUploadServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hspedu.upload.TPCFileUploadServer" />
       <module name="chapter21" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hspedu.api.*" />
+          <option name="PATTERN" value="com.hspedu.upload.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.hspedu.api" />
-      <option name="MAIN_CLASS_NAME" value="com.hspedu.api.API_" />
-      <option name="METHOD_NAME" value="testInetAddress" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SocketTCP01Client.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TPCFileUploadclient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hspedu.upload.TPCFileUploadclient" />
       <module name="chapter21" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hspedu.socket.*" />
+          <option name="PATTERN" value="com.hspedu.upload.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.hspedu.socket" />
-      <option name="MAIN_CLASS_NAME" value="com.hspedu.socket.SocketTCP01Client" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -164,13 +168,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="chapter21" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="chapter21" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.TPCFileUploadclient" />
+        <item itemvalue="应用程序.TPCFileUploadServer" />
         <item itemvalue="JUnit.SocketTCP03Client.testSocketTCP03Client" />
         <item itemvalue="JUnit.SocketTCP03Server.testSocketTCP03Server" />
         <item itemvalue="JUnit.SocketTCP01Server.test" />
-        <item itemvalue="JUnit.SocketTCP01Client.test" />
-        <item itemvalue="JUnit.API_.testInetAddress" />
       </list>
     </recent_temporary>
   </component>
@@ -183,7 +200,6 @@
       <option name="presentableId" value="Default" />
       <updated>1695609365649</updated>
       <workItem from="1695609366754" duration="7732000" />
-      <workItem from="1696643307048" duration="1549000" />
     </task>
     <task id="LOCAL-00001" summary="11">
       <option name="closed" value="true" />
@@ -209,15 +225,7 @@
       <option name="project" value="LOCAL" />
       <updated>1695824929487</updated>
     </task>
-    <task id="LOCAL-00004" summary="11">
-      <option name="closed" value="true" />
-      <created>1695868557161</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1695868557161</updated>
-    </task>
-    <option name="localTasksCounter" value="5" />
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,6 +255,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="11" />
     <option name="LAST_COMMIT_MESSAGE" value="11" />
   </component>
