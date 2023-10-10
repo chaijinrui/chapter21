@@ -21,13 +21,22 @@ public class TPCFileUploadServer {
         BufferedInputStream bufferedInputStream = new BufferedInputStream(accept.getInputStream());
         byte[] bytes = StreamUtils.streamToByteArray(bufferedInputStream);
 //      将byts数组写入到文件
-        String copyPath = "src\\qier2.png";
+        System.out.println("开始写入");
+        String copyPath = "H:\\CJR-QA\\qq2.png";
         BufferedOutputStream buffOutputStream = new BufferedOutputStream(new FileOutputStream(copyPath));
         buffOutputStream.write(bytes);
-        buffOutputStream.flush();
-        accept.shutdownOutput();//设置一个写入结束的标记
+        System.out.println("写入完成");
+//        向客户端发送信息
+        BufferedWriter bufferedWriter = new BufferedWriter(new OutputStreamWriter(accept.getOutputStream()));
+        bufferedWriter.write("收到图片");
+        bufferedWriter.flush();//把内容刷新一下到数据通道
+
+        accept.shutdownOutput();//设置写入结束关闭
+
+
 
 //      关闭流
+        bufferedWriter.close();
         bufferedInputStream.close();
         buffOutputStream.close();
         accept.close();

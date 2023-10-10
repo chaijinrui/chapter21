@@ -15,19 +15,23 @@ public class TPCFileUploadclient {
     public static void main(String[] args) throws Exception {
         Socket socket = new Socket(InetAddress.getLocalHost(), 8888);
 //        将图片转化为字节数组
-        String FilePath = "E:\\java基础学习资料\\资料\\分享资料\\qq1.png";
+        String FilePath = "H:\\CJR-QA\\qq1.png";
         BufferedInputStream bufferedInputStream = new BufferedInputStream(new FileInputStream(new File(FilePath)));
-        byte[] bytes = StreamUtils.streamToByteArray(bufferedInputStream);
+        byte[] bytes = StreamUtils.streamToByteArray(bufferedInputStream);//调用自己写的方法 把文件内容转将为字节数组
 //      将bytes数据发送给服务端
-        BufferedOutputStream bufferedOutputStream = new BufferedOutputStream(socket.getOutputStream());
+        BufferedOutputStream bufferedOutputStream = new BufferedOutputStream(socket.getOutputStream());//把getout输出流转为bufferedOutputStream输出流
         bufferedOutputStream.write(bytes);//将文件的内容写入到数据通道
-        bufferedOutputStream.flush();
         socket.shutdownOutput();//设置写入结束标记
-
+//        接收服务端信息
+        InputStream inputStream = socket.getInputStream();
+        String s = StreamUtils.streamToString(inputStream);
+        System.out.println(s);
+        inputStream.close();
 //      关闭流
-        bufferedInputStream.close();
         bufferedOutputStream.close();
+        bufferedInputStream.close();
         socket.close();
+
 
     }
 }
